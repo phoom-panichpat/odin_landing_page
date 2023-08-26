@@ -1,0 +1,165 @@
+    /* --text: #F7D4D8;
+    --background: #04005a;
+    --primary: #440bd4;
+    --secondary: #61004e;
+    --accent: #ff2079; 
+    --text: #F7D4D8;
+    */
+
+
+
+body {
+    background-color: #04005A;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+button {
+    background-color: #FF2079;
+    border: none;
+    padding: 8px 16px;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header{
+    /* background-color: #1A0507; */
+    flex: auto;
+    display: flex;
+    padding: 8px 100px;
+    align-items: center;
+    min-width: 300px;
+
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+    min-width: 50px;
+
+    
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.one {
+    /* background-color:brown; */
+    display: flex;
+    padding: 64px;
+    max-width: 100%;
+    gap: 16px;
+}
+
+.one_left {
+    flex: 1;
+    min-width: 400px;
+}
+
+.wangpic {
+    flex: 1;
+    /* width: 40%; */
+    min-width: 800px;
+    /* padding: 64px 0; */
+    /* padding: 100px 0; */
+}
+
+.two {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    /* padding: 36px; */
+    margin-bottom: 16px;    
+}
+
+.des {
+    font-size: 14px;
+}
+
+.three {
+    display: flex;
+    background-color: #440bd4;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.quote {
+    margin-bottom: 24px;
+}
+.author {
+    padding-left: 240px;
+    font-size: small;
+    font-family: monospace;
+}
+
+.four {
+    background-color: #61004E;
+    display: flex;
+    margin: 100px auto;
+    padding: 84px;
+    justify-content: space-between;
+    border-radius: 16px;
+    width: 560px;
+}
+
+.four_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.four_header {
+    font-size: 24px;
+}
+.four_des {
+    font-size: 12px;
+    font-family: monospace;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
